@@ -2500,6 +2500,7 @@ enum {
     XTRACE,
     USEZLE,
     DVORAK,
+    COLEMAK,
     OPT_SIZE
 };
 

@@ -4586,7 +4586,19 @@ spdist(char *s, char *t, int thresh)
 \tAOEUIDHTNS_\n\t\
 \t:QJKXBMWVZ\n\n\t\
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n";
-    const char *keymap;
+	const char colemakkeymap[] =
+		"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
+\t1234567890-=\t\
+\tqwfpgjluy;[]\t\
+\tarstdhneio'\n\t\
+\tzxcvbkm,./\t\t\t\
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\
+\t!@#$%^&*()_+\t\
+\tQWFPGJLUY:{}\t\
+\tARSTDHNEIO\"\n\t\
+\tZXCVBKM<>?\n\n\t\
+\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+	const char *keymap;
     if ( isset( DVORAK ) )
       keymap = dvorakkeymap;
     else

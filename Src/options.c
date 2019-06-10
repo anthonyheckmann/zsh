@@ -276,6 +276,7 @@ static struct optname optns[] = {
 {{NULL, "stdin",	      OPT_ALIAS}, /* ksh */	 SHINSTDIN},
 {{NULL, "trackall",	      OPT_ALIAS}, /* ksh */	 HASHCMDS},
 {{NULL, "dvorak",	      0},			 DVORAK},
+{{NULL, "colemak",	      0},			 COLEMAK},
 {{NULL, NULL, 0}, 0}
 };
 

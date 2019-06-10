@@ -1199,6 +1199,14 @@ Use the Dvorak keyboard instead of the standard qwerty keyboard as a basis
 for examining spelling mistakes for the tt(CORRECT) and tt(CORRECT_ALL)
 options and the tt(spell-word) editor command.
 )
+pindex(COLEMAK)
+pindex(NO_COLEMAK)
+pindex(NOCOLEMAK)
+item(tt(COLEMAK))(
+Use the Colemak keyboard instead of the standard qwerty keyboard as a basis
+for examining spelling mistakes for the tt(CORRECT) and tt(CORRECT_ALL)
+options and the tt(spell-word) editor command.
+)
 pindex(FLOW_CONTROL)
 pindex(NO_FLOW_CONTROL)
 pindex(FLOWCONTROL)
